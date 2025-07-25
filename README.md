@@ -65,8 +65,6 @@ cd api-rest-cloud
 Edite src/main/resources/application-dev.yml com os dados do seu banco:
 
 ```markdown
-Copiar
-Editar
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/nome_do_banco
