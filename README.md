@@ -16,6 +16,7 @@ API REST construída com Java 21 + Spring Boot, simulando uma aplicação de ser
 
 ## 📁 Estrutura do projeto:
 
+```text
 src
 ├── main
 │ ├── java
@@ -67,7 +68,9 @@ cd api-rest-cloud
 
 Edite src/main/resources/application-dev.yml com os dados do seu banco:
 
-yaml
+```markdown
+
+```yaml
 Copiar
 Editar
 spring:
@@ -76,11 +79,16 @@ spring:
     username: seu_usuario
     password: sua_senha
 
-🔌 Endpoints disponíveis
-Método	Endpoint	Descrição
-GET	/users	Lista todos os usuários
-GET	/users/{id}	Detalhes de um usuário
-POST	/users	Criação de novo usuário
+---
+
+```markdown
+## 🔌 Endpoints disponíveis
+
+| Método | Endpoint      | Descrição                |
+|--------|---------------|--------------------------|
+| GET    | /users        | Lista todos os usuários  |
+| GET    | /users/{id}   | Detalhes de um usuário   |
+| POST   | /users        | Criação de novo usuário  |
 
 (Outros endpoints são definidos conforme as entidades Account, Card, Feature, etc.)
 
