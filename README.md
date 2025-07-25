@@ -35,6 +35,7 @@ markdown
 Copiar
 Editar
 
+```
 ## ⚙️ Funcionalidades principais:
 
 ### 👤 Usuários
@@ -69,8 +70,6 @@ cd api-rest-cloud
 Edite src/main/resources/application-dev.yml com os dados do seu banco:
 
 ```markdown
-
-```yaml
 Copiar
 Editar
 spring:
@@ -79,7 +78,8 @@ spring:
     username: seu_usuario
     password: sua_senha
 
----
+```
+
 
 ```markdown
 ## 🔌 Endpoints disponíveis
@@ -91,6 +91,8 @@ spring:
 | POST   | /users        | Criação de novo usuário  |
 
 (Outros endpoints são definidos conforme as entidades Account, Card, Feature, etc.)
+
+````
 
  ### 🚀 Deploy na Cloud
 Este projeto está pronto para deploy no Railway, Render, Fly.io ou qualquer PaaS com suporte a Java:
