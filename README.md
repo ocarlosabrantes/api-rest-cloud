@@ -30,11 +30,6 @@ src
 │ ├── application-dev.yml
 │ └── application-prd.yml
 └── test
-
-markdown
-Copiar
-Editar
-
 ```
 ## ⚙️ Funcionalidades principais:
 
@@ -82,17 +77,15 @@ spring:
 
 
 ```markdown
-## 🔌 Endpoints disponíveis
+🔌 Endpoints disponíveis
 
 | Método | Endpoint      | Descrição                |
 |--------|---------------|--------------------------|
 | GET    | /users        | Lista todos os usuários  |
 | GET    | /users/{id}   | Detalhes de um usuário   |
 | POST   | /users        | Criação de novo usuário  |
-
-(Outros endpoints são definidos conforme as entidades Account, Card, Feature, etc.)
-
 ````
+(Outros endpoints são definidos conforme as entidades Account, Card, Feature, etc.)
 
  ### 🚀 Deploy na Cloud
 Este projeto está pronto para deploy no Railway, Render, Fly.io ou qualquer PaaS com suporte a Java:
@@ -116,5 +109,3 @@ Editar
 
 👨‍💻 Autor
 Carlos Henrique Abrantes
-Estudante de Java, Cloud AWS e desenvolvimento back-end.
-📍 Guarulhos - SP | LinkedIn
